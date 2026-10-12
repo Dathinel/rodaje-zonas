@@ -1,0 +1,100 @@
+{
+  "formatVersion": 1,
+  "id": "rodaje-zonas",
+  "version": "1.0.0",
+  "kind": "content",
+  "name": "Zonas de encuadre",
+  "description": "12 guías genéricas para el visor: encuadres de cine 2,39:1 y 1,85:1, recortes 4:3, 1:1, 4:5 y 16:9 en horizontal y en vertical, tercios, centro, franja de subtítulos y margen de proyección. Contenido propio de dominio público (CC0).",
+  "author": "Dathinel",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/Dathinel/rodaje-zonas",
+  "apps": [
+    "rodaje"
+  ],
+  "items": [
+    {
+      "id": "cine-239",
+      "kind": "safe-zones",
+      "name": "Cine 2,39:1",
+      "file": "zonas/cine-239.json",
+      "description": "Encuadre panorámico de cine (2,39:1) dentro de 16:9: lo que queda fuera se pierde con bandas negras."
+    },
+    {
+      "id": "cine-185",
+      "kind": "safe-zones",
+      "name": "Cine 1,85:1",
+      "file": "zonas/cine-185.json",
+      "description": "Encuadre de cine (1,85:1) dentro de 16:9."
+    },
+    {
+      "id": "cuatro-tercios",
+      "kind": "safe-zones",
+      "name": "4:3 en 16:9",
+      "file": "zonas/cuatro-tercios.json",
+      "description": "Lo que se ve si la imagen 16:9 se recorta a 4:3."
+    },
+    {
+      "id": "cuadrado-en-horizontal",
+      "kind": "safe-zones",
+      "name": "Cuadrado en 16:9",
+      "file": "zonas/cuadrado-en-horizontal.json",
+      "description": "Recorte cuadrado (1:1) centrado en una imagen 16:9."
+    },
+    {
+      "id": "cuatro-quintos-en-horizontal",
+      "kind": "safe-zones",
+      "name": "4:5 en 16:9",
+      "file": "zonas/cuatro-quintos-en-horizontal.json",
+      "description": "Recorte vertical 4:5 centrado en una imagen 16:9."
+    },
+    {
+      "id": "cuadrado-en-vertical",
+      "kind": "safe-zones",
+      "name": "Cuadrado en 9:16",
+      "file": "zonas/cuadrado-en-vertical.json",
+      "description": "Recorte cuadrado (1:1) centrado en una imagen vertical 9:16."
+    },
+    {
+      "id": "cuatro-quintos-en-vertical",
+      "kind": "safe-zones",
+      "name": "4:5 en 9:16",
+      "file": "zonas/cuatro-quintos-en-vertical.json",
+      "description": "Recorte 4:5 centrado en una imagen vertical 9:16."
+    },
+    {
+      "id": "horizontal-en-vertical",
+      "kind": "safe-zones",
+      "name": "16:9 en 9:16",
+      "file": "zonas/horizontal-en-vertical.json",
+      "description": "La franja 16:9 que cabe en una imagen vertical 9:16."
+    },
+    {
+      "id": "tercios",
+      "kind": "safe-zones",
+      "name": "Regla de los tercios",
+      "file": "zonas/tercios.json",
+      "description": "Dos líneas verticales y dos horizontales que dividen la imagen en tercios."
+    },
+    {
+      "id": "centro",
+      "kind": "safe-zones",
+      "name": "Centro",
+      "file": "zonas/centro.json",
+      "description": "La cruz del centro y un recuadro del 10 % alrededor."
+    },
+    {
+      "id": "subtitulos",
+      "kind": "safe-zones",
+      "name": "Zona de subtítulos",
+      "file": "zonas/subtitulos.json",
+      "description": "Franja inferior donde van los subtítulos, dentro del margen de títulos."
+    },
+    {
+      "id": "margen-proyeccion",
+      "kind": "safe-zones",
+      "name": "Margen de proyección 5 %",
+      "file": "zonas/margen-proyeccion.json",
+      "description": "Bordes del 5 % que pueden quedar fuera al proyectar o imprimir."
+    }
+  ]
+}
